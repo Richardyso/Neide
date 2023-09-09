@@ -1,14 +1,14 @@
 function openTab(event, tabName) {
-    var i, tabcontent, tablinks;
+    var i, conteudobotao, button;
     
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+    conteudobotao = document.getElementsByClassName("conteudobotao");
+    for (i = 0; i < conteudobotao.length; i++) {
+        conteudobotao[i].style.display = "none";
     }
     
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    button = document.getElementsByClassName("button");
+    for (i = 0; i < button.length; i++) {
+        button[i].className = button[i].className.replace(" active", "");
     }
     
     document.getElementById(tabName).style.display = "block";
