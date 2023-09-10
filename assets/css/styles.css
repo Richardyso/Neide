@@ -39,7 +39,10 @@ background-color: #f9f9f9;
 .secao4,
 .secao5{
   background-color: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid #000000; 
+  text-align: justify;
+  margin: 5px; /* Espaçamento igual em todos os lados */
+  flex: 1; /* Distribui igualmente o espaço disponível */
 }
 
 .tipos {
@@ -52,7 +55,7 @@ background-color: #f9f9f9;
 .secao1,
 .secao3 {
   float: left; /* Coloca secao1 e secao3 lado a lado */
-  width: 50%; /* Define a largura para ocupar metade do espaço */
+  width: 49%; /* Define a largura para ocupar metade do espaço */
 }
 
 .secao2,
