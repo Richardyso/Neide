@@ -29,16 +29,34 @@ margin-right: 2px; /* Espaçamento entre as abas */
 .conteudobotao {
 display: none;
 padding: 20px;
-border: 1px solid #000000;
+border: 1% solid #000000;
 background-color: #f9f9f9;
 }
 
-.seção {
+.secao1,
+.secao2,
+.secao3,
+.secao4,
+.secao5{
   background-color: #02bbff;
+  border: 1px solid #000000;
 }
+
 .tipos {
   background-color: #0bff17;
 }
 .ingredientes{
   background-color: #ff0808;
+}
+
+.secao1,
+.secao3 {
+  float: left; /* Coloca secao1 e secao3 lado a lado */
+  width: 50%; /* Define a largura para ocupar metade do espaço */
+}
+
+.secao2,
+.secao4 {
+  float: left;
+  width: 49%;
 }
